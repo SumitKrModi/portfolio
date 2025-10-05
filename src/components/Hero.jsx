@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Image with neon border */}
       <div className="relative w-60 h-60 md:w-72 md:h-72 rounded-full p-[5px] bg-gradient-to-r from-purple-500 via-cyan-400 to-pink-500 animate-spin-slow">
         <img
-          src="/mp.png"  // put your image in public/myphoto.jpg
+          src="/profile.png"  // put your image in public/myphoto.jpg
           alt="My Profile"
           className="w-full h-full rounded-full object-cover border-[5px] border-gray-900"
         />
