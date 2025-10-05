@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
+import { link } from "framer-motion/client";
 
 const Work = () => {
   const projects = [
-    { title: "Portfolio Website", desc: "Built with React & Tailwind." },
-    { title: "Tic Tac Toe Game", desc: "Classic game using HTML, CSS, JS." },
-    { title: "Blog Platform", desc: "Full-stack MERN blogging app." },
+    { title: "Portfolio Website", desc: "Built with React & Tailwind.",link: "https://sumitkrmodi-potfolio.vercel.app" },
+    { title: "Tic Tac Toe Game", desc: "Classic game using HTML, CSS, JS.",link: "https://sumitkrmodi.github.io/tictactoe/" },
+    { title: "Blog Platform", desc: "Full-stack MERN blogging app.",link: "#" },
   ];
 
   return (
@@ -24,7 +25,7 @@ const Work = () => {
             whileHover={{ scale: 1.05, boxShadow: "0px 0px 15px #32CD32" }}
             className="p-6 bg-gray-900 rounded-xl shadow-lg hover:shadow-2xl transition"
           >
-            <a href="https://sumitkrmodi.github.io/tictactoe/" className="text-2xl text-white font-semibold">{p.title}</a>
+            <a href={p.link} target="_blank" rel="noopener noreferre" className="text-2xl text-white font-semibold">{p.title}</a>
             <p className="text-gray-200 mt-2">{p.desc}</p>
           </motion.div>
         ))}
