@@ -16,25 +16,37 @@ export default function Contact() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
+        action="https://formsubmit.co/sumitkumarmodi0514@gmail.com"
+        method="POST"
         id="form"
         className="max-w-xl mx-auto flex flex-col gap-4"
       >
         <motion.input
+          whileFocus={{ scale: 1.02, borderColor: "#32CD32" }}type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://sumitkrmodi-portfolio.vercel.app/" />
+
+        <motion.input
           whileFocus={{ scale: 1.02, borderColor: "#32CD32" }}
           type="text"
+          name="name"
           placeholder="Your Name"
+          required
           className="p-3 rounded  border border-gray-700 focus:outline-none"
         />
         <motion.input
           whileFocus={{ scale: 1.02, borderColor: "#32CD32" }}
           type="email"
+          name="email"
           placeholder="Your Email"
           className="p-3 rounded bg-gray-900 border border-gray-700 focus:outline-none"
+          required
         />
         <motion.textarea
           whileFocus={{ scale: 1.02, borderColor: "#32CD32" }}
           rows="5"
+          name="message"
           placeholder="Your Message"
+          required
           className="p-3 rounded bg-gray-900 border border-gray-700 focus:outline-none"
         />
         <motion.button

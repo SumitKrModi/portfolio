@@ -8,7 +8,7 @@ import GlowCursor from "./components/GlowCursor";
 
 function App() {
   return (
-    <div>
+    <>
       <GlowCursor />
       <Navbar />
       <Hero />
@@ -16,7 +16,7 @@ function App() {
       <Skills />
       <Work />
       <Contact />
-    </div>
+    </>
   );
 }
 
