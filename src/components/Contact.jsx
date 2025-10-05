@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -11,7 +13,8 @@ export default function Contact() {
       >
         Contact Me
       </motion.h2>
-
+      <div className="flex gap-2 text-xl"><FaRegEnvelope /> <h1>sumitkumarmodi0514@gmail.com</h1></div>
+      <div className="flex gap-2 text-xl"><FaPhoneAlt /> <h1>8935888196</h1></div>
       <motion.form
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
