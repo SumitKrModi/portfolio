@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-gray-800/80 backdrop-blur-sm">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#hero" className="text-xl font-bold text-[#32CD32]">
-          Sumit
+          Portfolio
         </a>
 
         {/* Desktop Menu */}
