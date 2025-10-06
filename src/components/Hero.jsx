@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col md:flex-row items-center  justify-center bg-gray-950  gap-10 text-center md:text-left"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-gray-950  gap-10 text-center md:text-left"
     >
       {/* Image with neon border */}
       <div className="relative w-60 h-60 md:w-72 md:h-72 rounded-full p-[5px] bg-gradient-to-r from-purple-500 via-cyan-400 to-pink-500 animate-spin-slow">
@@ -30,10 +30,10 @@ export default function Hero() {
         className="text-xl text-gray-300"
       >
           A passionate Web Developer who loves building modern websites & apps.
-          <div className="flex mt-5 gap-5">
+          <div className="flex mt-5 ml-3 gap-5">
           <a target="_blank" href="https://github.com/SumitKrModi"><FaGithub /></a>
           <a target="_blank" href="https://linkedin.com/in/sumit-kumar-modi-b88b44316/"><FaLinkedin /></a>
-          <a target="_blank" href="https://instagram.com/_ksumit18_/"><FaInstagram /></a>
+          <a target="_blank" href="https://instagram.com/_krsumit18_/m"><FaInstagram /></a>
           </div>
         </motion.div>
         </div>
