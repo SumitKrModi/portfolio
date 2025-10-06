@@ -3,7 +3,7 @@ import { link } from "framer-motion/client";
 
 const Work = () => {
   const projects = [
-    { title: "Portfolio Website", desc: "Built with React & Tailwind.",link: "https://sumitkrmodi-potfolio.vercel.app" },
+    { title: "Portfolio Website", desc: "Built with React & Tailwind.",link: "https://sumitkrmodi-potfolio.vercel.app/" },
     { title: "Tic Tac Toe Game", desc: "Classic game using HTML, CSS, JS.",link: "https://sumitkrmodi.github.io/tictactoe/" },
     { title: "Blog Platform", desc: "Full-stack MERN blogging app.",link: "#" },
   ];
