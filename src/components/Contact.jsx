@@ -13,13 +13,21 @@ export default function Contact() {
       >
         Contact Me
       </motion.h2>
-      <div className="flex gap-2 text-xl"><FaRegEnvelope /> <h1>sumitkumarmodi0514@gmail.com</h1></div>
-      <div className="flex gap-2 text-xl"><FaPhoneAlt /> <h1>8935888196</h1></div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8 }} 
+        className="flex ml-1 mb-3 gap-2 text-gray-200 text-xl"><FaRegEnvelope /> <h1>sumitkr0514@gmail.com</h1></motion.div>
+      <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        className="flex ml-1 mb-5 gap-2 text-gray-200 text-xl"><FaPhoneAlt /> <h1>8935888196</h1></motion.div>
       <motion.form
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        action="https://formsubmit.co/sumitkumarmodi0514@gmail.com"
+        action="https://formsubmit.co/sumitkr0514@gmail.com"
         method="POST"
         id="form"
         className="max-w-xl mx-auto flex flex-col gap-4"
